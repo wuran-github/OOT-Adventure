@@ -1,0 +1,17 @@
+@startuml 
+title Adventure class diagram
+abstract class Role
+abstract class Item
+abstract class Weapon
+abstract class Quest
+
+interface observer
+interface subject
+
+interface SkillBehavior
+abstract class Skill
+class NoSkill
+
+
+
+@enduml
