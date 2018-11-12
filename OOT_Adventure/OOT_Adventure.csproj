@@ -40,8 +40,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Charactor.cs" />
+    <Compile Include="absEntity\Charactor.cs" />
+    <Compile Include="ISubject.cs" />
+    <Compile Include="absEntity\Item.cs" />
+    <Compile Include="IObserver.cs" />
+    <Compile Include="NullEntity\NullCharactor.cs" />
+    <Compile Include="NullEntity\NullItem.cs" />
+    <Compile Include="NullEntity\NullQuest.cs" />
+    <Compile Include="NullEntity\NullSkill.cs" />
+    <Compile Include="NullEntity\NullWeapon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="absEntity\Quest.cs" />
+    <Compile Include="absEntity\Skill.cs" />
+    <Compile Include="absEntity\Weapon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entity\Charactor\" />
+    <Folder Include="Entity\Item\" />
+    <Folder Include="Entity\Quest\" />
+    <Folder Include="Entity\Skill\" />
+    <Folder Include="Entity\Weapon\" />
+    <Folder Include="Interface\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

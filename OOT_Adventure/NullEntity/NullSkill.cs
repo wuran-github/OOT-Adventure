@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOT_Adventure
 {
-    public class Charactor
+    public class NullSkill:Skill
     {
     }
 }
